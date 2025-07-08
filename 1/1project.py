@@ -17,6 +17,6 @@ def total_salary(path):
     except FileNotFoundError:
         return f"Файл за шляхом '{path}' не знайдено!"
         
-total, average = total_salary("salaries.txt")
+total, average = total_salary("1\salaries.txt")
 print(f"Загальна сума заробітної плати: {total}, Середня заробітна плата: {average}")
 #я не розумію чому тут необроблються помилки я вже чата питав а він якусь дуристику пише  

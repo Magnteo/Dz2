@@ -13,5 +13,5 @@ def get_cats_info(path):
         return cats
     except FileNotFoundError:
         return "невірний шлях"
-cats_info = get_cats_info("cat.txt")
+cats_info = get_cats_info("2\cat.txt")
 print(cats_info)
